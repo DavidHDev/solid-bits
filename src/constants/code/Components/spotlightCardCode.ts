@@ -1,0 +1,28 @@
+import code from '@content/Components/SpotlightCard/SpotlightCard.tsx?raw';
+import css from '@content/Components/SpotlightCard/SpotlightCard.css?raw';
+import { createCodeObject } from '@/types/code';
+
+export const spotlightCard = createCodeObject(code, 'Components/SpotlightCard', {
+  dependencies: '',
+  usage: `import SpotlightCard from './SpotlightCard';
+
+<SpotlightCard
+  theme="dark"
+  spotlightColor="#ffffff"
+  intensity={0.15}
+  spotlightSize={240}
+  softness={0.7}
+  shape="circle"
+  borderGlow={0.6}
+  proximity={80}
+  smoothing={0.3}
+  grain={0}
+  ambient={false}
+  flare
+>
+  <h3>Ethan Harrison</h3>
+  <p>Product designer</p>
+  <button>Get in touch</button>
+</SpotlightCard>`,
+  css
+});

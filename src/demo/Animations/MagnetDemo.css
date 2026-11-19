@@ -1,0 +1,125 @@
+.magnet-demo-stage {
+  position: relative;
+  height: 460px;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.magnet-demo-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.magnet-demo-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 44px;
+  padding: 0 20px;
+  border: 0;
+  border-radius: 12px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: filter 200ms ease;
+}
+
+.magnet-demo-button:hover,
+.magnet-demo-tile:hover {
+  filter: var(--magnet-demo-hover);
+}
+
+.magnet-demo-dock {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 22px;
+  backdrop-filter: blur(20px) saturate(1.6);
+  -webkit-backdrop-filter: blur(20px) saturate(1.6);
+}
+
+.magnet-demo-tile {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: filter 200ms ease;
+}
+
+.magnet-demo-rim {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.magnet-demo-card {
+  width: 288px;
+  padding: 14px;
+  border-radius: 22px;
+}
+
+.magnet-demo-cover {
+  height: 168px;
+  border-radius: 12px;
+  background-size: cover;
+  background-position: center;
+}
+
+.magnet-demo-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 14px;
+  padding: 0 4px;
+}
+
+.magnet-demo-title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.magnet-demo-subtitle {
+  margin: 0;
+  font-size: 13px;
+}
+
+.magnet-demo-play {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.magnet-demo-track {
+  height: 4px;
+  margin: 14px 4px 4px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.magnet-demo-progress {
+  width: 38%;
+  height: 100%;
+  border-radius: 2px;
+}

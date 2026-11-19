@@ -1,0 +1,61 @@
+.ac-demo-scroller {
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.ac-demo-scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.ac-demo-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+  padding: 96px 24px 140px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.ac-demo-column p,
+.ac-demo-fill p {
+  margin: 0;
+}
+
+.ac-demo-fill {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ac-demo-tile {
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.ac-demo-photo {
+  height: 200px;
+  border-radius: 22px;
+  overflow: hidden;
+  position: relative;
+}
+
+.ac-demo-photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .ac-demo-photo {
+    height: 260px;
+  }
+}

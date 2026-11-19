@@ -1,0 +1,122 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+
+@import './fonts.css';
+@import './variables.css';
+@import './misc.css';
+@import './landing.css';
+@import './docs.css';
+@import './pro.css';
+@import './preview.css' layer(components);
+@import './color-picker.css' layer(components);
+@import './category.css' layer(components);
+@import './docs-code.css' layer(components);
+@import './docs-overview.css' layer(components);
+@import './prop-table.css' layer(components);
+@import './background-content.css' layer(components);
+@import './shell.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text-primary);
+  background-color: var(--bg-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+  background: var(--bg-body);
+}
+
+::selection {
+  background: rgba(10, 160, 239, 0.32);
+  color: #ffffff;
+  text-shadow: none;
+}
+
+:root[data-theme='light'] ::selection {
+  background: rgba(9, 119, 174, 0.2);
+  color: #15171a;
+}
+
+@layer base {
+  a {
+    font-weight: 500;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+body {
+  font-family: 'Geist', sans-serif;
+  margin: 0;
+  min-width: 100%;
+  min-height: 100%;
+  color: var(--text-primary);
+  background: var(--bg-body);
+}
+
+#app {
+  min-height: 100vh;
+  background: var(--bg-body);
+}
+
+.app-container {
+  background: var(--bg-body);
+  min-height: 100vh;
+  display: flex;
+  padding: 0 2em;
+}
+
+@media only screen and (max-width: 967px) {
+  .app-container {
+    padding: 0 1em;
+  }
+}
+
+.back-to-top {
+  background: var(--surface-ghost) !important;
+  border: 1px solid transparent;
+  box-shadow: var(--surface-ghost-highlight);
+  backdrop-filter: var(--surface-ghost-blur);
+  -webkit-backdrop-filter: var(--surface-ghost-blur);
+}
+
+.back-to-top:hover {
+  background: var(--surface-ghost-hover) !important;
+}
+
+:root[data-theme='light'] .back-to-top {
+  border-color: var(--border-subtle);
+  background: #f9fafc !important;
+  box-shadow: none;
+}
+
+:root[data-theme='light'] .back-to-top::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid var(--inset-border);
+  border-radius: 8px;
+  background: #fff;
+  pointer-events: none;
+}
+
+:root[data-theme='light'] .back-to-top svg,
+:root[data-theme='light'] .back-to-top i {
+  position: relative;
+  z-index: 1;
+}
+
+:root[data-theme='light'] .back-to-top:hover {
+  background: #f6f7f9 !important;
+}

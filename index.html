@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0c0f13" />
+    <script id="sb-theme-script">
+      (() => {
+        const root = document.documentElement;
+        let theme = 'dark';
+        try {
+          if (localStorage.getItem('solid-bits-theme') === 'light') theme = 'light';
+        } catch {}
+        root.setAttribute('data-theme', theme);
+        root.style.colorScheme = theme;
+      })();
+    </script>
+    <style id="sb-theme-style">
+      :root {
+        background: #0c0f13;
+      }
+      :root[data-theme='light'] {
+        background: #fff;
+      }
+    </style>
+    <meta name="author" content="David Haz" />
+    <meta
+      name="description"
+      content="An open source collection of high quality, animated, interactive & fully customizable SolidJS components for building stunning, memorable user interfaces."
+    />
+    <meta
+      name="keywords"
+      content="SolidJS, Solid components, Solid animations, UI Library, Component Library, SolidJS Components, SolidJS Animations, JavaScript, frontend development"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Solid Bits" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Solid Bits" />
+    <meta
+      property="og:description"
+      content="An open source collection of high quality, animated, interactive & fully customizable SolidJS components for building stunning, memorable user interfaces."
+    />
+    <meta property="og:image" content="https://solid-bits.dev/og.jpg" />
+    <meta property="og:image:alt" content="Solid Bits: free animated components for SolidJS." />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://solid-bits.dev" />
+    <meta property="og:site_name" content="Solid Bits" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Solid Bits" />
+    <meta
+      name="twitter:description"
+      content="An open source collection of high quality, animated, interactive & fully customizable SolidJS components for building stunning, memorable user interfaces."
+    />
+    <meta name="twitter:image" content="https://solid-bits.dev/og.jpg" />
+    <meta name="twitter:image:alt" content="Solid Bits: free animated components for SolidJS." />
+
+    <link rel="canonical" href="https://solid-bits.dev" />
+    <meta name="robots" content="index, follow" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Solid Bits",
+        "url": "https://solid-bits.dev",
+        "description": "An open source collection of high quality, animated, interactive & fully customizable SolidJS components for building stunning, memorable user interfaces.",
+        "image": "https://solid-bits.dev/og.jpg",
+        "author": {
+          "@type": "Person",
+          "name": "David Haz"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "David Haz",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://davidhaz.com"
+          }
+        }
+      }
+    </script>
+    <title>Solid Bits - Animated UI Components For Solid</title>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

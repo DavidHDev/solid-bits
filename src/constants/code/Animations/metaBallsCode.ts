@@ -1,0 +1,24 @@
+import code from '@content/Animations/MetaBalls/MetaBalls.tsx?raw';
+import css from '@content/Animations/MetaBalls/MetaBalls.css?raw';
+import { createCodeObject } from '@/types/code';
+
+export const metaBalls = createCodeObject(code, 'Animations/MetaBalls', {
+  dependencies: '',
+  usage: `import MetaBalls from './MetaBalls';
+
+<div style={{ width: '100%', height: '480px', position: 'relative' }}>
+  <MetaBalls
+    color="#ffffff"
+    cursorBallColor="#ffffff"
+    variant="solid"
+    motion="orbit"
+    ballCount={15}
+    animationSize={30}
+    gooeyness={0.5}
+    stretch={0.5}
+    wobble={0.5}
+    enableTransparency={true}
+  />
+</div>`,
+  css
+});

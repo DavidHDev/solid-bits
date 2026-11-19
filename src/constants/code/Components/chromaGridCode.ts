@@ -1,0 +1,27 @@
+import code from '@content/Components/ChromaGrid/ChromaGrid.tsx?raw';
+import css from '@content/Components/ChromaGrid/ChromaGrid.css?raw';
+import { createCodeObject } from '@/types/code';
+
+export const chromaGrid = createCodeObject(code, 'Components/ChromaGrid', {
+  dependencies: '',
+  usage: `import ChromaGrid from './ChromaGrid';
+
+const items = [
+  {
+    image: '/photos/field.jpg',
+    title: 'Canola Field',
+    subtitle: 'Midday',
+    accent: '#ffd23f'
+  },
+  {
+    image: '/photos/pier.jpg',
+    title: 'The Pier',
+    subtitle: 'Clear sky',
+    accent: '#3fb8ff',
+    url: 'https://example.com'
+  }
+];
+
+<ChromaGrid items={items} columns={3} radius={260} />`,
+  css
+});

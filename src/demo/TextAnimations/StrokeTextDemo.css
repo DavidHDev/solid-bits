@@ -1,0 +1,9 @@
+.demo-container.stroke-text-demo {
+  padding: 2rem;
+}
+
+@media (min-width: 768px) {
+  .demo-container.stroke-text-demo {
+    padding: 3.5rem;
+  }
+}

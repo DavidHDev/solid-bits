@@ -1,0 +1,145 @@
+.spotlight-demo-profile {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+.spotlight-demo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.spotlight-demo-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #9a9a9a;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.spotlight-demo-share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin-right: -6px;
+  margin-top: -4px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  color: inherit;
+  background: transparent;
+  cursor: pointer;
+}
+
+.spotlight-demo-share:hover {
+  background: var(--surface-ghost);
+}
+
+.spotlight-demo-name {
+  margin: 16px 0 0;
+  font-size: 1.45rem;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  line-height: 1.2;
+}
+
+.spotlight-demo-role {
+  margin: 4px 0 0;
+  font-size: 15px;
+  color: var(--text-muted);
+}
+
+.spotlight-demo-skills {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.spotlight-demo-skill {
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: var(--surface-ghost);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.spotlight-demo-stats {
+  display: flex;
+  align-items: stretch;
+  margin-top: 24px;
+}
+
+.spotlight-demo-stat {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.spotlight-demo-stat-value {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.spotlight-demo-stat-label {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.spotlight-demo-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.spotlight-demo-glass {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  padding: 0;
+  border: none;
+  font-family: inherit;
+  background: var(--glass-bg);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(14px) saturate(1.6);
+  -webkit-backdrop-filter: blur(14px) saturate(1.6);
+  color: inherit;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.spotlight-demo-glass:hover {
+  background: var(--glass-hover);
+}
+
+.spotlight-demo-touch {
+  flex: 1;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.spotlight-demo-save {
+  width: 48px;
+  border-radius: 50%;
+}
+
+.spotlight-demo-save.is-saved,
+.spotlight-demo-save.is-saved:hover {
+  background: var(--text-primary);
+  color: var(--bg-body);
+}

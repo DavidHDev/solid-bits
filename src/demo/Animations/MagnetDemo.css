@@ -44,8 +44,8 @@
   gap: 10px;
   padding: 10px;
   border-radius: 22px;
-  backdrop-filter: blur(20px) saturate(1.6);
   -webkit-backdrop-filter: blur(20px) saturate(1.6);
+  backdrop-filter: blur(20px) saturate(1.6);
 }
 
 .magnet-demo-tile {

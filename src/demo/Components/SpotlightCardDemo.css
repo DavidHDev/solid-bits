@@ -113,8 +113,8 @@
   font-family: inherit;
   background: var(--glass-bg);
   box-shadow: var(--glass-shadow);
-  backdrop-filter: blur(14px) saturate(1.6);
   -webkit-backdrop-filter: blur(14px) saturate(1.6);
+  backdrop-filter: blur(14px) saturate(1.6);
   color: inherit;
   cursor: pointer;
   transition:

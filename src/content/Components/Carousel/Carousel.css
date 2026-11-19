@@ -172,8 +172,8 @@
 .carousel-card.has-image .carousel-icon {
   background: rgba(255, 255, 255, 0.18);
   color: #ffffff;
-  backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 .carousel-icon svg {

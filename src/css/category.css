@@ -167,8 +167,8 @@
   background: var(--action-control-bg);
   box-shadow: none;
   opacity: 1;
-  backdrop-filter: none;
   -webkit-backdrop-filter: none;
+  backdrop-filter: none;
 }
 
 .code-section-actions .docs-copy-button:hover {

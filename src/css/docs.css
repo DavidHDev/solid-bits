@@ -120,8 +120,8 @@
   border-radius: var(--docs-rail-radius, 16px);
   background: color-mix(in srgb, var(--shell-panel-solid) 78%, transparent) !important;
   box-shadow: 0 14px 40px rgba(16, 21, 26, 0.08);
-  backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
   isolation: isolate;
 }
 
@@ -287,8 +287,8 @@
   border: 1px solid var(--shell-border-strong);
   border-radius: 10px;
   background: var(--field-bg);
-  backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
 }
 
 .sidebar-picker__pill {
@@ -349,8 +349,8 @@
   font-weight: 500;
   line-height: 1;
   white-space: nowrap;
-  backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
   pointer-events: none;
 }
 
@@ -368,8 +368,8 @@
   border-radius: 9px;
   background: var(--field-bg);
   color: var(--text-dimmed);
-  backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
   transition:
     border-color var(--transition-fast),
     color var(--transition-fast);
@@ -414,8 +414,8 @@
   box-shadow:
     0 22px 58px rgba(0, 0, 0, 0.38),
     0 0 28px rgba(10, 160, 239, 0.06);
-  backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
   pointer-events: none;
   transform-origin: left center;
 }
@@ -2290,8 +2290,8 @@
   font-size: 11px;
   font-weight: 500;
   line-height: 1;
-  backdrop-filter: var(--surface-ghost-blur);
   -webkit-backdrop-filter: var(--surface-ghost-blur);
+  backdrop-filter: var(--surface-ghost-blur);
   pointer-events: none;
 }
 
@@ -2314,8 +2314,8 @@
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
-  backdrop-filter: var(--surface-ghost-blur);
   -webkit-backdrop-filter: var(--surface-ghost-blur);
+  backdrop-filter: var(--surface-ghost-blur);
   transition:
     opacity 0.2s ease,
     background-color 0.2s ease,
@@ -2414,8 +2414,8 @@
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
-  backdrop-filter: var(--surface-ghost-blur);
   -webkit-backdrop-filter: var(--surface-ghost-blur);
+  backdrop-filter: var(--surface-ghost-blur);
   transition:
     background var(--transition-base),
     transform var(--dur-press) var(--ease-out);
@@ -2462,8 +2462,8 @@
   border-top: 1px solid var(--shell-border);
   border-radius: 0;
   background: color-mix(in srgb, var(--shell-panel-solid) 95%, transparent);
-  backdrop-filter: blur(32px) saturate(1.3);
   -webkit-backdrop-filter: blur(32px) saturate(1.3);
+  backdrop-filter: blur(32px) saturate(1.3);
   box-shadow: none;
   animation: ln-menu-fade-in 0.2s ease;
 }
@@ -2508,8 +2508,8 @@
   border-radius: 9px;
   background: color-mix(in srgb, var(--shell-panel-solid) 94%, transparent);
   color: var(--text-dimmed);
-  backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
 }
 
 .ln-navbar-mobile-filter:focus-within {

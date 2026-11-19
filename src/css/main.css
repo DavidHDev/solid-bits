@@ -87,8 +87,8 @@ body {
   background: var(--surface-ghost) !important;
   border: 1px solid transparent;
   box-shadow: var(--surface-ghost-highlight);
-  backdrop-filter: var(--surface-ghost-blur);
   -webkit-backdrop-filter: var(--surface-ghost-blur);
+  backdrop-filter: var(--surface-ghost-blur);
 }
 
 .back-to-top:hover {

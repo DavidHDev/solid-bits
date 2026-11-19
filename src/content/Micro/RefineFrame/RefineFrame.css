@@ -133,8 +133,8 @@
   padding: 0 10px 0 8px;
   border-radius: 13px;
   background: color-mix(in srgb, var(--rf-bg) 72%, transparent);
-  backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   opacity: 1;
   transform: translateY(0);
   pointer-events: none;

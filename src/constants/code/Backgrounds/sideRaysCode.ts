@@ -8,7 +8,7 @@ export const sideRays = createCodeObject(code, 'Backgrounds/SideRays', {
 
 <div style={{ width: '100%', height: '600px', position: 'relative' }}>
   <SideRays
-    rayColor1="#FFC46B"
+    rayColor1="#6BCCFF"
     rayColor2="#96c8ff"
     origin="top-right"
     speed={2.5}

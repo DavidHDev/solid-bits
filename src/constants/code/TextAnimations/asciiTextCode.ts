@@ -9,7 +9,7 @@ export const asciiText = createCodeObject(code, 'TextAnimations/ASCIIText', {
   <ASCIIText
     text="Hey!"
     asciiFontSize={8}
-    colors={['#ff6a5c', '#fc9867', '#ffd866']}
+    colors={['#ff6a5c', '#fc9867', '#66caff']}
     textScale={1}
     blocks={0.9}
     waves={1}

@@ -8,7 +8,7 @@ export const grainient = createCodeObject(code, 'Backgrounds/Grainient', {
 
 <div style={{ width: '100%', height: '600px', position: 'relative' }}>
   <Grainient
-    colors={['#0c0f13', '#2a0f0a', '#9a3412', '#f97316', '#fed7aa']}
+    colors={['#0c0f13', '#2a0f0a', '#9a3412', '#16abf9', '#fed7aa']}
     angle={55}
     flow={0.8}
     silk={0.35}

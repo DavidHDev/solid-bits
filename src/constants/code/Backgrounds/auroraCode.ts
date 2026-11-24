@@ -8,7 +8,7 @@ export const aurora = createCodeObject(code, 'Backgrounds/Aurora', {
 
 <div style={{ width: '100%', height: '600px', position: 'relative' }}>
   <Aurora
-    colorStops={['#0aa0ef', '#7cff67', '#0aa0ef']}
+    colorStops={['#0aa0ef', '#67cbff', '#0aa0ef']}
     amplitude={1}
     blend={0.5}
     height={0.45}

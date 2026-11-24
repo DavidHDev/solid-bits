@@ -8,7 +8,7 @@ export const letterGlitch = createCodeObject(code, 'Backgrounds/LetterGlitch', {
 
 <div style={{ width: '100%', height: '600px', position: 'relative' }}>
   <LetterGlitch
-    glitchColors={['#ffffff', '#61dca3']}
+    glitchColors={['#ffffff', '#61b2dc']}
     glitchAmount={0.5}
     speed={1}
     flow={0.5}

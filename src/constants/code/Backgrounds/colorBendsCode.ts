@@ -7,7 +7,7 @@ export const colorBends = createCodeObject(code, 'Backgrounds/ColorBends', {
   usage: `import ColorBends from './ColorBends';
 
 <ColorBends
-  colors={['#ff6b5c', '#5c9dff', '#00ffd1']}
+  colors={['#ff6b5c', '#5c9dff', '#00a7ff']}
   rotation={90}
   speed={0.2}
   scale={1}

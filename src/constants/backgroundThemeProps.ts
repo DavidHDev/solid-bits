@@ -121,7 +121,7 @@ export const BACKGROUND_LIGHT_PROPS: Record<string, Record<string, unknown>> = {
   },
   'letter-glitch': {
     lightMode: true,
-    glitchColors: ['#181a1b', '#0f9f6e'],
+    glitchColors: ['#181a1b', '#0f6d9f'],
     baseColor: '#181a1b'
   },
   'light-pillar': {
@@ -204,7 +204,7 @@ export const BACKGROUND_LIGHT_PROPS: Record<string, Record<string, unknown>> = {
   },
   radar: {
     lightMode: true,
-    color: '#0a9f5f'
+    color: '#0a6c9f'
   },
   'ripple-grid': {
     lightMode: true
@@ -227,7 +227,7 @@ export const BACKGROUND_LIGHT_PROPS: Record<string, Record<string, unknown>> = {
   },
   'side-rays': {
     lightMode: true,
-    rayColor1: '#f59e0b',
+    rayColor1: '#0ba4f5',
     rayColor2: '#60a5fa'
   },
   silk: {
@@ -237,7 +237,7 @@ export const BACKGROUND_LIGHT_PROPS: Record<string, Record<string, unknown>> = {
   },
   'sliced-waves': {
     lightMode: true,
-    color1: '#f0a830',
+    color1: '#30aef0',
     color2: '#1aa3d9',
     color3: '#0977ae'
   },

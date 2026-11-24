@@ -15,7 +15,7 @@ export const borderGlow = createCodeObject(code, 'Components/BorderGlow', {
   glowIntensity={1.0}
   coneSpread={25}
   animated={false}
-  colors={['#6ec9f7', '#fdba74', '#38bdf8']}
+  colors={['#6ec9f7', '#74cefd', '#38bdf8']}
 >
   <div style={{ padding: '2em' }}>
     <h2>Your Content Here</h2>

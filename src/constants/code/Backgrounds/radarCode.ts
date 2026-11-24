@@ -8,7 +8,7 @@ export const radar = createCodeObject(code, 'Backgrounds/Radar', {
 
 <div style={{ width: '100%', height: '600px', position: 'relative' }}>
   <Radar
-    color="#3ef09a"
+    color="#3eb3f0"
     mode="sweep"
     speed={1}
     trail={0.35}

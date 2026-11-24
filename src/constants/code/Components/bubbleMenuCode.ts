@@ -19,14 +19,14 @@ const items = [
     href: '#',
     ariaLabel: 'About',
     rotation: 8,
-    hoverStyles: { bgColor: '#10b981', textColor: '#ffffff' }
+    hoverStyles: { bgColor: '#107fb9', textColor: '#ffffff' }
   },
   {
     label: 'projects',
     href: '#',
     ariaLabel: 'Projects',
     rotation: 8,
-    hoverStyles: { bgColor: '#f59e0b', textColor: '#ffffff' }
+    hoverStyles: { bgColor: '#0ba4f5', textColor: '#ffffff' }
   },
   {
     label: 'blog',

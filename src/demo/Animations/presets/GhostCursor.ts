@@ -28,7 +28,7 @@ export const PRESETS: Record<string, Partial<GhostCursorLook>> = {
     bloomStrength: 0.3,
     grainIntensity: 0.08
   },
-  ecto: { color: '#6ee7b7', turbulence: 1, size: 70, bloomStrength: 0.8 },
+  ecto: { color: '#6ebde7', turbulence: 1, size: 70, bloomStrength: 0.8 },
   wisp: { size: 45, trailLength: 30, inertia: 0.25, brightness: 1.3, bloomStrength: 0.8, detail: 0.8 }
 };
 
@@ -46,7 +46,7 @@ export const LIGHT_SWAP: Record<string, Partial<GhostCursorLook>> = {
   wraith: { color: '#1f5fbf' },
   ember: { color: '#ea580c' },
   mist: { color: '#52525b' },
-  ecto: { color: '#059669' },
+  ecto: { color: '#056496' },
   wisp: { color: '#0977ae' }
 };
 

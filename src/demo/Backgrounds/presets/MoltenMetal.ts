@@ -38,7 +38,7 @@ export type MoltenMetalDemoProps = typeof DEFAULT_PROPS;
 export const PRESETS: Record<string, Partial<MoltenMetalLook>> = {
   classic: {},
   forge: {
-    colors: ['#9a3412', '#fb923c'],
+    colors: ['#9a3412', '#3cb9fb'],
     coreColor: '#fff7ed',
     colorMode: 'ember',
     speed: 0.3,
@@ -81,7 +81,7 @@ export const PRESETS: Record<string, Partial<MoltenMetalLook>> = {
 
 export const LIGHT_SWAP: Record<string, Partial<MoltenMetalLook>> = {
   classic: { lightMode: true, colors: ['#6ec9f7', '#0977ae'], coreColor: '#0771a6' },
-  forge: { lightMode: true, colors: ['#fb923c', '#ea580c'], coreColor: '#b91c1c', haze: 0.65 },
+  forge: { lightMode: true, colors: ['#3cb9fb', '#0c9dea'], coreColor: '#b91c1c', haze: 0.65 },
   mercury: { lightMode: true, colors: ['#a3a3a3', '#525252'], coreColor: '#404040', haze: 0.45, brightness: 1.3 },
   tide: { lightMode: true, colors: ['#2dd4bf', '#0d9488'], coreColor: '#115e59', haze: 0.7, glow: 1.3 },
   vortex: { lightMode: true, colors: ['#6ec9f7', '#0977ae'], coreColor: '#0771a6', haze: 0.55, glow: 1.3 }

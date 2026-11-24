@@ -52,10 +52,10 @@ export const PRESETS: Record<string, Partial<GridScanDemoProps>> = {
     points: false
   },
   deep: { ...LOOK, cells: 10, depth: 8, trail: 0.7, scanDuration: 4 },
-  wire: { ...LOOK, linesColor: '#5a5d62', scanColor: '#fbbf24', shading: 0, reflection: 0, points: false, glow: 0.35 },
+  wire: { ...LOOK, linesColor: '#5a5d62', scanColor: '#24b1fb', shading: 0, reflection: 0, points: false, glow: 0.35 },
   pulse: {
     ...LOOK,
-    scanColor: '#bef264',
+    scanColor: '#64c1f2',
     depth: 2.2,
     scanDirection: 'pingpong',
     scanDuration: 1.2,
@@ -70,8 +70,8 @@ export const LIGHT_SWAP: Record<string, Partial<GridScanDemoProps>> = {
   lidar: { scanColor: '#0d9488' },
   blueprint: { linesColor: '#94a3b8', scanColor: '#18181b' },
   deep: { scanColor: '#0284c7' },
-  wire: { linesColor: '#a1a4a8', scanColor: '#d97706' },
-  pulse: { scanColor: '#65a30d' }
+  wire: { linesColor: '#a1a4a8', scanColor: '#0690d9' },
+  pulse: { scanColor: '#0d6fa3' }
 };
 
 export const PRESET_OPTIONS = [

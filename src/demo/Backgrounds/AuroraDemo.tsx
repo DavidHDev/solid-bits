@@ -29,7 +29,7 @@ const propData: PropRow[] = [
   {
     name: 'colorStops',
     type: 'string[]',
-    default: "['#0aa0ef', '#7cff67', '#0aa0ef']",
+    default: "['#0aa0ef', '#67cbff', '#0aa0ef']",
     description: 'Two to five colors that blend across the aurora from left to right.'
   },
   { name: 'amplitude', type: 'number', default: '1', description: 'How tall the waves along the edge are.' },

@@ -27,7 +27,7 @@ const propData: PropRow[] = [
   {
     name: 'colors',
     type: 'string[]',
-    default: "['#0c0f13', '#2a0f0a', '#9a3412', '#f97316', '#fed7aa']",
+    default: "['#0c0f13', '#2a0f0a', '#9a3412', '#16abf9', '#fed7aa']",
     description:
       'Two to eight colors, from the base to the highlight. Use your page background as the first color so the edges blend in.'
   },

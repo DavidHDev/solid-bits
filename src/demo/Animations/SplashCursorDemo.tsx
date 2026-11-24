@@ -50,7 +50,7 @@ const propData: PropRow[] = [
   {
     name: 'colors',
     type: 'string[]',
-    default: "['#4f8cff', '#2dd4bf', '#ffd166']",
+    default: "['#4f8cff', '#2dd4bf', '#66caff']",
     description: 'Palette the ink cycles through when rainbow is off.'
   },
   {

@@ -27,7 +27,7 @@ const DEFAULT_PROPS = {
   animated: false
 };
 
-const DEFAULT_COLORS = ['#6ec9f7', '#fdba74', '#38bdf8'];
+const DEFAULT_COLORS = ['#6ec9f7', '#74cefd', '#38bdf8'];
 
 const propData: PropRow[] = [
   { name: 'children', type: 'JSX.Element', default: '-', description: 'Content rendered inside the card.' },

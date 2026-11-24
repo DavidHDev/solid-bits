@@ -21,7 +21,7 @@ const DEFAULT_PROPS = {
   preset: 'classic',
   text: 'Hey!',
   charset: CLASSIC,
-  colors: ['#ff6a5c', '#fc9867', '#ffd866'],
+  colors: ['#ff6a5c', '#fc9867', '#66caff'],
   asciiFontSize: 8,
   textScale: 1,
   blocks: 0.9,
@@ -40,7 +40,7 @@ const PRESETS: Record<string, Partial<typeof DEFAULT_PROPS>> = {
   classic: {},
   terminal: {
     charset: ' .:-=+*#%@',
-    colors: ['#b8f5c8', '#5ee08a', '#1f9d55'],
+    colors: ['#b8f5c8', '#5eb3e0', '#1f729d'],
     blocks: 0,
     chroma: 0.3,
     hueShift: 0,
@@ -76,7 +76,7 @@ const propData: PropRow[] = [
   {
     name: 'colors',
     type: 'string[]',
-    default: "['#ff6a5c', '#fc9867', '#ffd866']",
+    default: "['#ff6a5c', '#fc9867', '#66caff']",
     description: 'Gradient for the characters, from the center outward. Up to three colors.'
   },
   { name: 'textColor', type: 'string', default: "'#fdf9f3'", description: 'Color of the text behind the characters.' },

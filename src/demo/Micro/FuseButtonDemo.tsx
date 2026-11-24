@@ -31,7 +31,7 @@ const DEFAULT_PROPS = {
   preset: 'archive' as PresetKey,
   color: '#f5f5f5',
   background: '#27272a',
-  fuseColor: '#f5a524',
+  fuseColor: '#24adf5',
   size: 'md' as FuseSize,
   radius: 22,
   undoWindow: 4000,
@@ -48,7 +48,7 @@ const PRESETS: Record<
   PresetKey,
   { label: string; undoLabel: string; doneLabel: string; icon: IconSvgElement; fuse: string }
 > = {
-  archive: { label: 'Archive', undoLabel: 'Undo', doneLabel: 'Archived', icon: Archive02Icon, fuse: '#f5a524' },
+  archive: { label: 'Archive', undoLabel: 'Undo', doneLabel: 'Archived', icon: Archive02Icon, fuse: '#24adf5' },
   send: { label: 'Send', undoLabel: 'Undo', doneLabel: 'Sent', icon: SentIcon, fuse: '#6ec9f7' },
   delete: { label: 'Delete', undoLabel: 'Undo', doneLabel: 'Deleted', icon: Delete02Icon, fuse: '#e5484d' }
 };
@@ -108,7 +108,7 @@ const propData: PropRow[] = [
     description: 'Ink for labels and icons; the seam and tints derive from it.'
   },
   { name: 'background', type: 'string', default: '"#27272a"', description: 'The pill surface.' },
-  { name: 'fuseColor', type: 'string', default: '"#f5a524"', description: 'The lit line or ring.' },
+  { name: 'fuseColor', type: 'string', default: '"#24adf5"', description: 'The lit line or ring.' },
   {
     name: 'size',
     type: '"sm" | "md" | "lg"',

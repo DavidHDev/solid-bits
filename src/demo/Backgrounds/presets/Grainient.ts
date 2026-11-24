@@ -1,7 +1,7 @@
 import type { GrainientType } from '@/content/Backgrounds/Grainient/Grainient';
 
 export const LOOK = {
-  colors: ['#0c0f13', '#2a0f0a', '#9a3412', '#f97316', '#fed7aa'],
+  colors: ['#0c0f13', '#2a0f0a', '#9a3412', '#16abf9', '#fed7aa'],
   type: 'linear' as GrainientType,
   angle: 55,
   bands: 1,
@@ -37,7 +37,7 @@ export const PRESETS: Record<string, Partial<GrainientDemoProps>> = {
   satin: { ...LOOK, colors: ['#0c0c0f', '#3f3f46', '#a1a1aa', '#fafafa'], angle: 40, bands: 2, silk: 1 },
   dunes: {
     ...LOOK,
-    colors: ['#0c0f13', '#451a03', '#b45309', '#fbbf24', '#fef3c7'],
+    colors: ['#0c0f13', '#451a03', '#0979b4', '#24b1fb', '#fef3c7'],
     angle: 70,
     bands: 2,
     softness: 0.08,
@@ -57,7 +57,7 @@ export const PRESETS: Record<string, Partial<GrainientDemoProps>> = {
   },
   aurora: {
     ...LOOK,
-    colors: ['#05110f', '#065f46', '#34d399', '#ecfccb'],
+    colors: ['#05110f', '#06405f', '#349cd3', '#ecfccb'],
     angle: 100,
     bands: 3,
     flow: 1.1,

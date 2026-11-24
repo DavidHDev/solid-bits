@@ -55,7 +55,7 @@ const PRESETS: Record<string, PresetLook> = {
     dustSpeed: 1
   },
   aurora: {
-    color: '#5CFFC8',
+    color: '#5CC7FF',
     strands: 5,
     crackle: 0.6,
     flares: 0.5,
@@ -89,7 +89,7 @@ const PRESETS: Record<string, PresetLook> = {
     dustSpeed: 1.2
   },
   ember: {
-    color: '#FF8A2A',
+    color: '#2AB6FF',
     strands: 5,
     crackle: 0.9,
     flares: 0.8,
@@ -123,7 +123,7 @@ const PRESETS: Record<string, PresetLook> = {
     dustSpeed: 0.7
   },
   solar: {
-    color: '#FFD36E',
+    color: '#6ECDFF',
     strands: 6,
     crackle: 0.7,
     flares: 1,

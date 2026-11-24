@@ -40,9 +40,9 @@ const LIGHT_SWAP: Record<string, string> = {
   '#22d3ee': '#0891b2',
   '#3b82f6': '#2563eb',
   '#e0edff': '#505459',
-  '#fcd34d': '#d97706',
-  '#f97316': '#ea580c',
-  '#fb923c': '#c2410c'
+  '#4dc0fc': '#0690d9',
+  '#16abf9': '#0c9dea',
+  '#3cb9fb': '#c2410c'
 };
 
 const DARK_SWAP: Record<string, string> = Object.fromEntries(

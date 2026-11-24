@@ -42,7 +42,7 @@ export const PRESETS: Record<string, Partial<DotFieldLook>> = {
     bulgeStrength: 0.4,
     dotRadius: 1.6,
     dotSpacing: 12,
-    gradientFrom: '#FFC46B',
+    gradientFrom: '#6BCCFF',
     gradientTo: '#FF6B6B',
     glowColor: '#fff4e0'
   },

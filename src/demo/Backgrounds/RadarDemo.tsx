@@ -25,7 +25,7 @@ const MODE_OPTIONS = [
 ];
 
 const propData: PropRow[] = [
-  { name: 'color', type: 'string', default: "'#3ef09a'", description: 'Color of the sweep and the contacts.' },
+  { name: 'color', type: 'string', default: "'#3eb3f0'", description: 'Color of the sweep and the contacts.' },
   {
     name: 'backgroundColor',
     type: 'string',

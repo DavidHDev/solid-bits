@@ -56,8 +56,8 @@ const PRESET_OPTIONS = [
 
 const LIGHT_SWAP: Record<string, string> = {
   '#ffffff': '#18181b',
-  '#ffcf8a': '#c2410c',
-  '#ff4d2e': '#fb923c',
+  '#8ad7ff': '#c2410c',
+  '#ff4d2e': '#3cb9fb',
   '#e0f7ff': '#0369a1'
 };
 

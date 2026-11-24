@@ -45,7 +45,7 @@ const PRESETS: Record<string, typeof LOOK> = {
   classic: { ...LOOK },
   terminal: {
     ...LOOK,
-    scrambleColor: '#2bb673',
+    scrambleColor: '#2b86b6',
     revealDirection: 'random',
     speed: 40,
     hoverRadius: 70,

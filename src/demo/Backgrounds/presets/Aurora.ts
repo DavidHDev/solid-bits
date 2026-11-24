@@ -1,5 +1,5 @@
 export const LOOK = {
-  colorStops: ['#0aa0ef', '#7cff67', '#0aa0ef'],
+  colorStops: ['#0aa0ef', '#67cbff', '#0aa0ef'],
   amplitude: 1,
   blend: 0.5,
   height: 0.45,
@@ -28,10 +28,10 @@ export const PRESETS: Record<string, Partial<AuroraDemoProps>> = {
   dusk: { ...LOOK, colorStops: ['#ff8a5c', '#ff5c5c', '#5c9dff'] },
   arctic: { ...LOOK, colorStops: ['#8fe3ff', '#e8f6ff', '#6f9bff'], amplitude: 0.7, speed: 0.7 },
   mono: { ...LOOK, colorStops: ['#ffffff', '#9aa0ad', '#ffffff'], brightness: 0.8 },
-  horizon: { ...LOOK, colorStops: ['#5c9dff', '#ff7a6b', '#ffb35c'], direction: 'bottom', height: 0.5 },
+  horizon: { ...LOOK, colorStops: ['#5c9dff', '#ff7a6b', '#5cc7ff'], direction: 'bottom', height: 0.5 },
   veil: {
     ...LOOK,
-    colorStops: ['#7cff67', '#22d3c5', '#5c9dff'],
+    colorStops: ['#67cbff', '#22d3c5', '#5c9dff'],
     layers: 3,
     glow: 1.2,
     speed: 0.6,

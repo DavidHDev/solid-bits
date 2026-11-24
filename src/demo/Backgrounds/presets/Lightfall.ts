@@ -56,14 +56,14 @@ export const PRESETS: Record<string, LightfallLook> = {
   },
   aurora: {
     ...STARFALL,
-    colors: ['#ecfdf5', '#6ee7b7', '#22d3ee'],
+    colors: ['#ecfdf5', '#6ebde7', '#22d3ee'],
     backgroundColor: '#0f9f8a',
     backgroundGlow: 0.2,
     speed: 0.4
   },
   ember: {
     ...STARFALL,
-    colors: ['#fff4e6', '#ffb067', '#ff5a36'],
+    colors: ['#fff4e6', '#67cbff', '#ff5a36'],
     backgroundColor: '#ff4d1a',
     backgroundGlow: 0.1,
     speed: 0.35,

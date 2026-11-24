@@ -18,7 +18,7 @@ import { useColorModeValue } from '@/hooks/useTheme';
 import Strands, { type StrandsProps } from '@/content/Animations/Strands/Strands';
 import { strands } from '@/constants/code/Animations/strandsCode';
 
-const SPECTRUM = ['#d95b56', '#ba5046', '#ffa24c', '#ffe0b3', '#93f1ff', '#3569fa', '#193d9b'];
+const SPECTRUM = ['#d95b56', '#ba5046', '#4cc1ff', '#ffe0b3', '#93f1ff', '#3569fa', '#193d9b'];
 
 const LOOK = {
   colors: SPECTRUM,

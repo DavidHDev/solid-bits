@@ -165,8 +165,8 @@ const PRESETS: Record<string, Partial<typeof LOOK>> = {
 const LIGHT_SWAP: Record<string, string> = {
   '#7df9ff': '#0891b2',
   '#6ec9f7': '#0977ae',
-  '#fb923c': '#ea580c',
-  '#34d399': '#059669',
+  '#3cb9fb': '#0c9dea',
+  '#349cd3': '#056496',
   '#93c5fd': '#2563eb',
   '#e4e4e7': '#52525b'
 };

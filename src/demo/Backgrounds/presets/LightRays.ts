@@ -40,7 +40,7 @@ export const PRESETS: Record<string, Partial<LightRaysLook>> = {
   sunbeam: {
     raysOrigin: 'top-left',
     tilt: -32,
-    raysColor: '#FFD39A',
+    raysColor: '#9ADCFF',
     lightSpread: 1,
     rayDensity: 1.3,
     glow: 0.9,
@@ -72,7 +72,7 @@ export const PRESETS: Record<string, Partial<LightRaysLook>> = {
   },
   horizon: {
     raysOrigin: 'bottom-center',
-    raysColor: '#FFB070',
+    raysColor: '#70CEFF',
     lightSpread: 1.4,
     rayLength: 2,
     glow: 1,

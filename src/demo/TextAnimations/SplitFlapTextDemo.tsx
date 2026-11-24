@@ -52,7 +52,7 @@ const PRESETS: Record<string, typeof LOOK> = {
     words: PHRASE_SETS.travel,
     charset: 'alpha',
     tileColor: '#0a0a0a',
-    textColor: '#facc15',
+    textColor: '#15abfa',
     flipDuration: 0.09,
     stagger: 0.035,
     flipsPerChar: 12,

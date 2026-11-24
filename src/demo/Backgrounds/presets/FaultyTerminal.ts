@@ -57,7 +57,7 @@ export const PRESETS: Record<string, Look> = {
   },
   amber: {
     glyphs: 'dots',
-    tint: '#FFB347',
+    tint: '#47C0FF',
     scale: 1.6,
     digitSize: 1.25,
     brightness: 0.8,
@@ -100,7 +100,7 @@ export const PRESETS: Record<string, Look> = {
 
 export const LIGHT_SWAP: Record<string, Look> = {
   phosphor: { tint: '#166534', brightness: 0.6 },
-  classic: { tint: '#166534', brightness: 0.55 },
+  classic: { tint: '#164a65', brightness: 0.55 },
   terminal: { tint: '#166534', brightness: 0.75 },
   amber: { tint: '#B45309', brightness: 0.7 },
   ice: { tint: '#0369A1', brightness: 0.7 },

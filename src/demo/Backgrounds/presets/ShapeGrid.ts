@@ -67,8 +67,8 @@ export const PRESETS: Record<string, { look: ShapeGridLook; light: ShapeGridColo
       shape: 'diamond',
       direction: 'right',
       speed: 0.4,
-      hoverColor: '#f5a524',
-      hoverFillColor: '#f5a524',
+      hoverColor: '#24adf5',
+      hoverFillColor: '#24adf5',
       glow: 0.5
     },
     light: { lineColor: '#e4e6e7', hoverColor: '#c2410c', hoverFillColor: '#c2410c' }

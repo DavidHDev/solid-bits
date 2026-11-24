@@ -58,9 +58,9 @@ const PRESETS: Record<string, Partial<typeof LOOK>> = {
     gridOpacity: 0.05,
     fadeDuration: 1200
   },
-  marks: { color: '#fbbf24', gridStyle: 'crosses', gridOpacity: 0.28, fillOpacity: 0.08, spotlight: 0.8 },
+  marks: { color: '#24b1fb', gridStyle: 'crosses', gridOpacity: 0.28, fillOpacity: 0.08, spotlight: 0.8 },
   dots: { gridStyle: 'dots', cellSize: 36, radius: 120, gridOpacity: 0.3, fillOpacity: 0.1 },
-  dashed: { color: '#34d399', gridStyle: 'dashed', gridOpacity: 0.14, ambient: 0.5, fadeDuration: 1600 },
+  dashed: { color: '#349cd3', gridStyle: 'dashed', gridOpacity: 0.14, ambient: 0.5, fadeDuration: 1600 },
   classic: {
     color: '#6ec9f7',
     cellSize: 70,
@@ -75,8 +75,8 @@ const PRESETS: Record<string, Partial<typeof LOOK>> = {
 const LIGHT_SWAP: Record<string, string> = {
   '#ffffff': '#18181b',
   '#7dd3fc': '#0284c7',
-  '#fbbf24': '#d97706',
-  '#34d399': '#059669',
+  '#24b1fb': '#0690d9',
+  '#349cd3': '#056496',
   '#6ec9f7': '#0977ae'
 };
 

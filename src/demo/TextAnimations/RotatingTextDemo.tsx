@@ -56,7 +56,7 @@ const PRESETS: Record<string, typeof LOOK> = {
   },
   drop: {
     ...LOOK,
-    highlightColor: '#facc15',
+    highlightColor: '#15abfa',
     effect: 'drop',
     staggerDuration: 0.04,
     staggerFrom: 'first'

@@ -144,8 +144,8 @@ const PRESETS: Record<string, Partial<DemoProps>> = {
   vortex: { count: 1000, size: 2.2, speed: 1.6, swirl: 1, wander: 1.1, accentColor: '#7dd3fc' },
   comet: { shape: 'streak', accentColor: '#7dd3fc', count: 600, size: 2.2, tail: 0.9, trail: 1.4, swirl: 0.4 },
   fireflies: {
-    color: '#fde68a',
-    accentColor: '#fde68a',
+    color: '#8ad5fd',
+    accentColor: '#8ad5fd',
     count: 160,
     size: 4,
     spread: 120,
@@ -160,7 +160,7 @@ const PRESETS: Record<string, Partial<DemoProps>> = {
 
 const LIGHT_SWAP: Record<string, string> = {
   '#ffffff': '#18181b',
-  '#fde68a': '#d97706',
+  '#8ad5fd': '#0690d9',
   '#7dd3fc': '#0284c7'
 };
 

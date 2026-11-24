@@ -41,10 +41,10 @@ export const PRESETS: Record<string, Partial<MagicRingsLook>> = {
     glow: 0.6,
     dispersion: 0.6
   },
-  gyro: { color: '#fcd34d', colorTwo: '#f97316', ringCount: 4, taper: 1.1, spin: 0.8, tilt: 60 },
+  gyro: { color: '#4dc0fc', colorTwo: '#16abf9', ringCount: 4, taper: 1.1, spin: 0.8, tilt: 60 },
   eclipse: {
     color: '#ffffff',
-    colorTwo: '#fb923c',
+    colorTwo: '#3cb9fb',
     motion: 'breathe',
     ringCount: 3,
     lineThickness: 1.5,
@@ -69,7 +69,7 @@ export const LIGHT_SWAP: Record<string, Partial<MagicRingsLook>> = {
   halo: { color: '#3f4246', colorTwo: '#6f7378' },
   ripple: { color: '#0891b2', colorTwo: '#2563eb' },
   prism: { color: '#3f4246', colorTwo: '#505459' },
-  gyro: { color: '#d97706', colorTwo: '#ea580c' },
+  gyro: { color: '#0690d9', colorTwo: '#0c9dea' },
   eclipse: { color: '#3f4246', colorTwo: '#c2410c' }
 };
 

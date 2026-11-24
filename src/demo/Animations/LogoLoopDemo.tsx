@@ -61,7 +61,7 @@ const items: LogoItem[] = [
   { node: icon(ICON_PATHS.github), title: 'GitHub', href: 'https://github.com' },
   { node: icon(ICON_PATHS.docker), title: 'Docker', href: 'https://www.docker.com', hoverColor: '#2496ed' },
   { node: icon(ICON_PATHS.prisma), title: 'Prisma', href: 'https://www.prisma.io' },
-  { node: icon(ICON_PATHS.supabase), title: 'Supabase', href: 'https://supabase.com', hoverColor: '#3ecf8e' },
+  { node: icon(ICON_PATHS.supabase), title: 'Supabase', href: 'https://supabase.com', hoverColor: '#3e9dcf' },
   { node: icon(ICON_PATHS.stripe), title: 'Stripe', href: 'https://stripe.com' }
 ];
 

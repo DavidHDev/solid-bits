@@ -64,7 +64,7 @@ const PRESETS: Record<string, Partial<typeof LOOK>> = {
   glass: { ...LOOK, variant: 'glass', content: 'photos', color: '#6ec9f7', label: 'Photos' },
   book: { ...LOOK, mode: 'book', label: 'Projects' },
   portfolio: { ...LOOK, mode: 'book', variant: 'matte', content: 'photos', color: '#2b2c2e', label: 'Portfolio' },
-  manila: { ...LOOK, mode: 'book', color: '#e6c78f', label: 'Archive', layout: 'stack' }
+  manila: { ...LOOK, mode: 'book', color: '#8fc8e6', label: 'Archive', layout: 'stack' }
 };
 
 const PRESET_OPTIONS = [

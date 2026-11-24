@@ -27,7 +27,7 @@ export const PRESETS: Record<string, Preset> = {
   pearl: { colors: ['#ffffff', '#a3a3a3', '#525252'], glow: 0.35, intensityScale: 0.8 },
   ember: { colors: ['#fff1c1', '#ff8a3d', '#e11d48'], animationType: 'rotate', distort: 1.5, speed: 0.4 },
   sunburst: {
-    colors: ['#fde68a', '#f59e0b', '#ffffff'],
+    colors: ['#8ad5fd', '#0ba4f5', '#ffffff'],
     rayCount: 18,
     rayWidth: 1.6,
     glow: 0.3,

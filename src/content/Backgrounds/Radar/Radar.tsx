@@ -475,7 +475,7 @@ export default function Radar(props: RadarProps) {
   const settings = createMemo<Settings>(() => {
     const mode = props.mode ?? 'sweep';
     return {
-      color: String(props.color ?? '#3ef09a'),
+      color: String(props.color ?? '#3eb3f0'),
       backgroundColor: String(props.backgroundColor ?? 'transparent'),
       mode: mode === 'pulse' ? 'pulse' : 'sweep',
       speed: props.speed ?? 1,

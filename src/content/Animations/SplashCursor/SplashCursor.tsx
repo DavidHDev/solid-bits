@@ -340,7 +340,7 @@ export default function SplashCursor(props: SplashCursorProps) {
   let current!: Settings;
 
   const settings = createMemo<Settings>(() => {
-    const colors = props.colors ?? ['#4f8cff', '#2dd4bf', '#ffd166'];
+    const colors = props.colors ?? ['#4f8cff', '#2dd4bf', '#66caff'];
     const quality = props.quality ?? 'high';
     return {
       palette: (Array.isArray(colors) && colors.length ? colors : ['#ffffff']).map(parseColor),

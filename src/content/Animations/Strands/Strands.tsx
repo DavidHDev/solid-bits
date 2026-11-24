@@ -378,7 +378,7 @@ const speech = (t: number) => {
   return phrase * (0.35 + 0.65 * syllable) * (0.25 + stress);
 };
 
-const DEFAULT_COLORS = ['#d95b56', '#ba5046', '#ffa24c', '#ffe0b3', '#93f1ff', '#3569fa', '#193d9b'];
+const DEFAULT_COLORS = ['#d95b56', '#ba5046', '#4cc1ff', '#ffe0b3', '#93f1ff', '#3569fa', '#193d9b'];
 
 export default function Strands(props: StrandsProps) {
   let containerEl: HTMLDivElement | undefined;

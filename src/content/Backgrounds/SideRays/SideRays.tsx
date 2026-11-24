@@ -260,7 +260,7 @@ export default function SideRays(props: SideRaysProps) {
   let wakeFn: (() => void) | null = null;
 
   const settings = createMemo<Settings>(() => ({
-    colorA: parseColor(props.rayColor1 ?? '#FFC46B'),
+    colorA: parseColor(props.rayColor1 ?? '#6BCCFF'),
     colorB: parseColor(props.rayColor2 ?? '#96c8ff'),
     blend: clamp(props.blend ?? 0.6, 0, 1),
     frame: ORIGINS[props.origin ?? 'top-right'] ?? ORIGINS['top-right'],

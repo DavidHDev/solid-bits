@@ -77,7 +77,7 @@ const SOCIAL: Entry[] = [
   { icon: Linkedin01Icon, color: 'linear-gradient(135deg, #2f8ae0, #0a5bb8)', label: 'LinkedIn' },
   {
     icon: InstagramIcon,
-    color: 'linear-gradient(135deg, #feda75, #fa7e1e 30%, #e5372c 60%, #b8241c 85%)',
+    color: 'linear-gradient(135deg, #75cffe, #1eaefa 30%, #e5372c 60%, #b8241c 85%)',
     label: 'Instagram'
   },
   { icon: YoutubeIcon, color: 'linear-gradient(135deg, #ff4e45, #c4120a)', label: 'YouTube' },

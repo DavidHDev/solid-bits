@@ -17,7 +17,7 @@ export interface BorderGlowProps {
   fillOpacity?: number;
 }
 
-const DEFAULT_COLORS = ['#6ec9f7', '#fdba74', '#38bdf8'];
+const DEFAULT_COLORS = ['#6ec9f7', '#74cefd', '#38bdf8'];
 
 function parseHSL(hslStr: string): { h: number; s: number; l: number } {
   const match = hslStr.match(/([\d.]+)\s*([\d.]+)%?\s*([\d.]+)%?/);

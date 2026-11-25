@@ -30,7 +30,7 @@ export type SilkDemoProps = typeof DEFAULT_PROPS;
 export const PRESETS: Record<string, SilkLook> = {
   satin: LOOK,
   classic: { ...LOOK, sheen: 0, depth: 0, glow: 0 },
-  champagne: { ...LOOK, color: '#b08d57', sheenColor: '#fff3dc', sheen: 0.6, depth: 0.55, glow: 0.35 },
+  champagne: { ...LOOK, color: '#5791b0', sheenColor: '#fff3dc', sheen: 0.6, depth: 0.55, glow: 0.35 },
   midnight: { ...LOOK, color: '#1e5aa8', speed: 3.5, sheen: 0.55, glow: 0.4, variation: 3 },
   emerald: { ...LOOK, color: '#12805f', sheenColor: '#e3fff4', rotation: 0.35, variation: 7 },
   graphite: { ...LOOK, color: '#8d8f93', sheen: 0.7, depth: 0.7, glow: 0.2, noiseIntensity: 1 },

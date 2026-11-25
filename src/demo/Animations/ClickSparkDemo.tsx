@@ -46,8 +46,8 @@ const DEFAULT_PROPS = { demo: 'buttons', preset: 'classic', ...LOOK, layer: 'bac
 
 const LIGHT_SWAP: Record<string, string> = {
   '#ffffff': '#18181b',
-  '#fde68a': '#d97706',
-  '#fbbf24': '#f59e0b',
+  '#8ad5fd': '#0690d9',
+  '#24b1fb': '#0ba4f5',
   '#7dd3fc': '#0284c7'
 };
 

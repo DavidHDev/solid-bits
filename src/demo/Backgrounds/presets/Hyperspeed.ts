@@ -35,7 +35,7 @@ export const PRESETS: Record<string, Partial<HyperspeedDemoProps>> = {
   night: {
     tailColors: ['#ff2d55', '#ff5a36', '#e8174a'],
     headColors: ['#eef6ff', '#9cc8ff', '#ffffff'],
-    poleColors: ['#ffb547']
+    poleColors: ['#47c0ff']
   },
   akira: {
     curve: 'hills',
@@ -52,7 +52,7 @@ export const PRESETS: Record<string, Partial<HyperspeedDemoProps>> = {
     density: 30,
     poles: 50,
     tailColors: ['#7d0d1b', '#a90519', '#ff102a'],
-    headColors: ['#f1eece', '#e6e2b1', '#dfd98a'],
+    headColors: ['#f1eece', '#e6e2b1', '#8ac2df'],
     poleColors: ['#f1eece']
   },
   split: {
@@ -69,7 +69,7 @@ export const PRESETS: Record<string, Partial<HyperspeedDemoProps>> = {
     roadWidth: 9,
     density: 50,
     poles: 50,
-    tailColors: ['#dc5b20', '#dca320', '#dc2020'],
+    tailColors: ['#dc5b20', '#209bdc', '#dc2020'],
     headColors: ['#3386f7', '#e5e9ed', '#bfd5f3'],
     poleColors: ['#c5e8eb']
   },
@@ -79,7 +79,7 @@ export const PRESETS: Record<string, Partial<HyperspeedDemoProps>> = {
     density: 50,
     poles: 50,
     tailColors: ['#ff322f', '#a33010', '#a81508'],
-    headColors: ['#fdfdf0', '#f3dea0', '#e2bb88'],
+    headColors: ['#fdfdf0', '#f3dea0', '#88c3e2'],
     poleColors: ['#fdfdf0']
   }
 };

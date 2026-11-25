@@ -257,7 +257,7 @@ export default function FuseButton(props: FuseButtonProps) {
       style={{
         '--fb-ink': props.color ?? '#f5f5f5',
         '--fb-bg': props.background ?? '#27272a',
-        '--fb-fuse': props.fuseColor ?? '#f5a524',
+        '--fb-fuse': props.fuseColor ?? '#24adf5',
         '--fb-fuse-h': `${props.fuseThickness ?? 1.5}px`,
         '--fb-radius': `${props.radius ?? 22}px`,
         '--fb-fade': `${props.crossfadeMs ?? 200}ms`,

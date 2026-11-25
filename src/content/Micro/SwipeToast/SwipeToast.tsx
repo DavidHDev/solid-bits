@@ -317,7 +317,7 @@ export default function SwipeToast(props: SwipeToastProps) {
       ({
         '--st-bg': props.background ?? '#27272a',
         '--st-ink': props.color ?? '#f5f5f5',
-        '--st-fuse': props.fuseColor ?? '#f5a524',
+        '--st-fuse': props.fuseColor ?? '#24adf5',
         '--st-w': `${props.width ?? 356}px`,
         '--st-radius': `${props.radius ?? 12}px`,
         '--st-slide': `${props.slideMs ?? 400}ms`,

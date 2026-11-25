@@ -29,7 +29,7 @@ export type AntigravityLook = typeof LOOK;
 export const PRESETS: Record<string, Partial<AntigravityLook>> = {
   magnet: {},
   spectrum: {
-    colors: ['#4a90e2', '#22d3c5', '#D96570', '#F9AB00'],
+    colors: ['#4a90e2', '#22d3c5', '#D96570', '#00A3F9'],
     colorSpeed: 0.08,
     count: 2000,
     magnetRadius: 11
@@ -41,7 +41,7 @@ export const PRESETS: Record<string, Partial<AntigravityLook>> = {
     waveAmplitude: 0.6
   },
   bloom: {
-    colors: ['#6ec9f7', '#ffd6a5', '#fda4af'],
+    colors: ['#6ec9f7', '#a5e0ff', '#fda4af'],
     colorMode: 'radial',
     waveAmplitude: 6,
     waveCount: 5
@@ -56,7 +56,7 @@ export const PRESETS: Record<string, Partial<AntigravityLook>> = {
     rotationSpeed: 0.3
   },
   confetti: {
-    colors: ['#6ec9f7', '#ff7a6b', '#ffd166', '#06d6a0'],
+    colors: ['#6ec9f7', '#ff7a6b', '#66caff', '#068ed6'],
     colorMode: 'random',
     particleShape: 'box',
     count: 900,

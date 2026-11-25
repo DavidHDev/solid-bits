@@ -62,7 +62,7 @@ const propData: PropRow[] = [
   {
     name: 'glitchColors',
     type: 'string[]',
-    default: "['#ffffff', '#61dca3']",
+    default: "['#ffffff', '#61b2dc']",
     description: 'Up to 8 colors that glitching letters light up in. Light mode defaults to dark ink tones.'
   },
   {

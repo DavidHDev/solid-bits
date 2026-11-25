@@ -1,6 +1,6 @@
 export const PALETTES: Record<string, string[]> = {
   none: [],
-  stardust: ['#ffffff', '#ffd9a3', '#a8c8ff'],
+  stardust: ['#ffffff', '#a3dfff', '#a8c8ff'],
   ice: ['#ffffff', '#bfe3ff', '#8fb8ff'],
   gold: ['#fff6e0', '#ffd27a', '#ffb35c'],
   rose: ['#ffffff', '#ffcbc2', '#ffd9b8']

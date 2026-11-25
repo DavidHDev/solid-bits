@@ -25,7 +25,7 @@ const DEFAULT_PROPS = {
   actionLabel: 'Undo',
   background: '#27272a',
   color: '#f5f5f5',
-  fuseColor: '#f5a524',
+  fuseColor: '#24adf5',
   width: 356,
   radius: 12,
   slideMs: 400,
@@ -88,7 +88,7 @@ const propData: PropRow[] = [
     default: '"#f5f5f5"',
     description: 'Ink: title, description at 62% and the action fill.'
   },
-  { name: 'fuseColor', type: 'string', default: '"#f5a524"', description: 'The burning line.' },
+  { name: 'fuseColor', type: 'string', default: '"#24adf5"', description: 'The burning line.' },
   {
     name: 'width',
     type: 'number',

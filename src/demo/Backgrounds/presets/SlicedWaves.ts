@@ -45,12 +45,12 @@ export const PRESETS: Record<string, SlicedWavesLook> = {
 };
 
 export const LIGHT_COLORS: Record<string, SlicedWavesColors> = {
-  prism: { color1: '#f0a830', color2: '#1aa3d9', color3: '#0977ae' },
+  prism: { color1: '#30aef0', color2: '#1aa3d9', color3: '#0977ae' },
   neon: { color1: '#00a7c4', color2: '#9ccc1f', color3: '#1f6fe0' },
   ember: { color1: '#ff9a1f', color2: '#ff4a1c', color3: '#e0123c' },
   aurora: { color1: '#00b886', color2: '#0098e0', color3: '#0977ae' },
   ion: { color1: '#475569', color2: '#2a8ad8', color3: '#1f5fa8' },
-  signal: { color1: '#f0a830', color2: '#1aa3d9', color3: '#0977ae' }
+  signal: { color1: '#30aef0', color2: '#1aa3d9', color3: '#0977ae' }
 };
 
 export const PRESET_OPTIONS = [

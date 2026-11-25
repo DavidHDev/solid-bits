@@ -64,7 +64,7 @@ const PRESETS: Record<string, typeof LOOK> = {
   },
   dotted: {
     ...LOOK,
-    strokeColor: '#f59e0b',
+    strokeColor: '#0ba4f5',
     fillMode: 'fade',
     ease: 'power3.out',
     fontFamily: SERIF,

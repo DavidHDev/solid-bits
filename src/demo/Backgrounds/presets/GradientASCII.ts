@@ -35,14 +35,14 @@ export const PRESETS: Record<string, Partial<GradientASCIIDemoProps>> = {
   atmosphere: {},
   lagoon: { shape: 'pinch', colors: ['#0d9488', '#5eead4', '#f0fdfa'], characters: ' .:-=+*#%@', cellSize: 16 },
   rose: { shape: 'rise', colors: ['#9b1c1c', '#ef4444', '#fca5a5', '#fef2f2'], cellSize: 22 },
-  corona: { shape: 'eclipse', colors: ['#78350f', '#f59e0b', '#fffbeb'], characters: ' 01', cellSize: 15 }
+  corona: { shape: 'eclipse', colors: ['#0f5478', '#0ba4f5', '#fffbeb'], characters: ' 01', cellSize: 15 }
 };
 
 export const LIGHT_SWAP: Record<string, Partial<GradientASCIIDemoProps>> = {
   atmosphere: { colors: ['#4f8ff7', '#e8f0ff', '#b4d0ff', '#7cb4fb'] },
-  lagoon: { colors: ['#99f6e4', '#5eead4', '#2dd4bf'] },
+  lagoon: { colors: ['#99d6f6', '#5eead4', '#2dd4bf'] },
   rose: { colors: ['#fecaca', '#fca5a5', '#f87171', '#ef4444'] },
-  corona: { colors: ['#fde68a', '#fcd34d', '#f59e0b'] }
+  corona: { colors: ['#8ad5fd', '#4dc0fc', '#0ba4f5'] }
 };
 
 export const PRESET_OPTIONS = [

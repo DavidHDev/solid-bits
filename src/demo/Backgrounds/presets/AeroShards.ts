@@ -37,8 +37,8 @@ export const PRESETS: Record<string, Partial<AeroShardsLook>> = {
     speed: 0.8
   },
   copper: {
-    shardColor: '#e3a17a',
-    accentColor: '#f97316',
+    shardColor: '#7abfe3',
+    accentColor: '#16abf9',
     material: 'chrome',
     markers: 'dots',
     twist: 1.3,
@@ -63,7 +63,7 @@ export const PRESETS: Record<string, Partial<AeroShardsLook>> = {
 export const LIGHT_SWAP: Record<string, Partial<AeroShardsLook>> = {
   sapphire: { lightMode: true, shardColor: '#0aa0ef', accentColor: '#3d8bd4' },
   glacier: { lightMode: true, shardColor: '#3b86e0', accentColor: '#0ea5e9' },
-  copper: { lightMode: true, shardColor: '#c2410c', accentColor: '#f97316' },
+  copper: { lightMode: true, shardColor: '#c2410c', accentColor: '#16abf9' },
   graphite: { lightMode: true, shardColor: '#404040', accentColor: '#737373' },
   halo: { lightMode: true, shardColor: '#3f6fb0', accentColor: '#0977ae' }
 };

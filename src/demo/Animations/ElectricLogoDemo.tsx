@@ -40,7 +40,7 @@ const PALETTES: Record<string, { dark: Palette; light: Palette }> = {
     light: { color: '#ef3848', glowColor: '#ffa3ab' }
   },
   openai: {
-    dark: { color: '#c2fff1', glowColor: '#1fd8b6' },
+    dark: { color: '#c2fff1', glowColor: '#1f98d8' },
     light: { color: '#0ea88f', glowColor: '#7fe6d5' }
   }
 };

@@ -18,7 +18,7 @@ const [open, setOpen] = createSignal(true);
   onAction={() => restore()}
   background="#27272a"
   color="#f5f5f5"
-  fuseColor="#f5a524"
+  fuseColor="#24adf5"
   width={356}
   radius={12}
   slideMs={400}

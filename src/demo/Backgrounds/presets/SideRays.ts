@@ -1,7 +1,7 @@
 export type SideRaysOrigin = 'top-right' | 'top-left' | 'bottom-right' | 'bottom-left' | 'right' | 'left';
 
 export const LOOK = {
-  rayColor1: '#FFC46B',
+  rayColor1: '#6BCCFF',
   rayColor2: '#96c8ff',
   blend: 0.6,
   origin: 'top-right' as SideRaysOrigin,
@@ -32,8 +32,8 @@ export const PRESETS: Record<string, Partial<SideRaysLook>> = {
     sharpness: 0.75,
     glow: 1.4
   },
-  cathedral: { rayColor1: '#ffe2b0', rayColor2: '#ffd28a', spread: 2.6, density: 12, sharpness: 0.8, dust: 0.5 },
-  horizon: { origin: 'left', rayColor1: '#ffb36b', rayColor2: '#7ab0f0', spread: 2.4, falloff: 1.2 }
+  cathedral: { rayColor1: '#ffe2b0', rayColor2: '#8ad7ff', spread: 2.6, density: 12, sharpness: 0.8, dust: 0.5 },
+  horizon: { origin: 'left', rayColor1: '#6bccff', rayColor2: '#7ab0f0', spread: 2.4, falloff: 1.2 }
 };
 
 export const PRESET_OPTIONS = [

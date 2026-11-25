@@ -59,7 +59,7 @@ export const PRESETS: Record<string, Partial<ParticlesDemoProps>> = {
   },
   fireflies: {
     ...LOOK,
-    particleColors: ['#f4ff8a', '#c6ff6b', '#ffe28a'],
+    particleColors: ['#8ad7ff', '#6bccff', '#8ad7ff'],
     particleCount: 260,
     particleBaseSize: 170,
     sizeRandomness: 0.8,

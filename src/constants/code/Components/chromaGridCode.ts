@@ -11,7 +11,7 @@ const items = [
     image: '/photos/field.jpg',
     title: 'Canola Field',
     subtitle: 'Midday',
-    accent: '#ffd23f'
+    accent: '#3fbdff'
   },
   {
     image: '/photos/pier.jpg',

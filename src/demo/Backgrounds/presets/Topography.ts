@@ -57,7 +57,7 @@ export const PRESETS: Record<string, Partial<TopographyLook>> = {
   },
   alpenglow: { color: '#ff8fa3', elevation: 1.6, scale: 0.9, tilt: 24, lineCount: 24, fog: 0.5, clickEffect: 'peak' },
   dunes: {
-    color: '#ffc46b',
+    color: '#6bccff',
     elevation: 0.5,
     scale: 1.8,
     lineCount: 34,

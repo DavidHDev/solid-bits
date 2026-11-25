@@ -1,7 +1,7 @@
 import type { RadarMode } from '@/content/Backgrounds/Radar/Radar';
 
 export const BASE = {
-  color: '#3ef09a',
+  color: '#3eb3f0',
   mode: 'sweep' as RadarMode,
   speed: 1,
   trail: 0.35,
@@ -42,8 +42,8 @@ export const PRESETS: Record<string, Partial<RadarDemoProps>> = {
 };
 
 export const LIGHT_COLORS: Record<string, string> = {
-  radar: '#0a9f5f',
-  horizon: '#0a9f5f',
+  radar: '#0a6c9f',
+  horizon: '#0a6c9f',
   sonar: '#0891b2',
   amber: '#d97706',
   mono: '#27272a'

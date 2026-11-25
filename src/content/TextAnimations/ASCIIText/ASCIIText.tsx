@@ -248,7 +248,7 @@ export default function ASCIIText(props: ASCIITextProps) {
   const [fallback, setFallback] = createSignal(false);
 
   const settings = createMemo<Settings>(() => {
-    const colors = props.colors ?? ['#ff6a5c', '#fc9867', '#ffd866'];
+    const colors = props.colors ?? ['#ff6a5c', '#fc9867', '#66caff'];
     const palette = (colors?.length ? colors : ['#ffffff']).slice(0, 3);
     return {
       cellSize: Math.max(3, props.asciiFontSize ?? 8),

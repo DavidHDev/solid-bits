@@ -31,7 +31,7 @@ export type SoftAuroraLook = typeof LOOK;
 export const PRESETS: Record<string, Partial<SoftAuroraLook>> = {
   classic: {},
   borealis: {
-    color1: '#3EE59A',
+    color1: '#3EABE5',
     color2: '#22B8D3',
     spectrum: 0.2,
     bandHeight: 0.55,

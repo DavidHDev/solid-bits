@@ -58,7 +58,7 @@ export const PRESETS: Record<string, Partial<PixelBlastLook>> = {
   },
   ember: {
     color: '#9A3412',
-    accentColor: '#FDBA74',
+    accentColor: '#74CEFD',
     patternScale: 1.6,
     patternDensity: 1.15,
     glow: 0.6,
@@ -79,7 +79,7 @@ export const PRESETS: Record<string, Partial<PixelBlastLook>> = {
   },
   stars: {
     color: '#A1A1AA',
-    accentColor: '#FDE68A',
+    accentColor: '#8AD5FD',
     variant: 'cross',
     pixelSize: 6,
     pixelSizeJitter: 0.6,
@@ -117,7 +117,7 @@ export const LIGHT_SWAP: Record<string, Partial<PixelBlastLook>> = {
   mono: { color: '#A1A1AA', accentColor: '#18181B' },
   ember: { color: '#FDBA74', accentColor: '#C2410C' },
   dots: { color: '#38BDF8', accentColor: '#0369A1' },
-  stars: { color: '#A1A1AA', accentColor: '#D97706' },
+  stars: { color: '#A1A1AA', accentColor: '#0690D9' },
   horizon: { color: '#3288cf', accentColor: '#3288cf' },
   storm: { color: '#6ec9f7', accentColor: '#0771a6' }
 };

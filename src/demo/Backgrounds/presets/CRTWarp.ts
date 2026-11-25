@@ -45,7 +45,7 @@ export type CRTWarpDemoProps = typeof DEFAULT_PROPS;
 export const PRESETS: Record<string, Partial<CRTWarpLook>> = {
   cobalt: {},
   amber: {
-    color: '#ffb000',
+    color: '#00a7ff',
     mask: 'none',
     speed: 0.35,
     waveFrequency: 3.2,
@@ -63,7 +63,7 @@ export const PRESETS: Record<string, Partial<CRTWarpLook>> = {
     vignette: 0.45
   },
   oscilloscope: {
-    color: '#3dff7a',
+    color: '#3dbcff',
     mask: 'none',
     speed: 0.4,
     waveAmplitude: 0.45,

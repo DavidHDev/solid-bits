@@ -95,7 +95,7 @@ export const PRESETS: Record<string, Partial<GhostFibersLook>> = {
     foldGlow: 1.3
   },
   ember: {
-    glowColor: '#ff6a1a',
+    glowColor: '#1ab0ff',
     lineColor: '#ffd9a8',
     secondaryColor: '#e11d48',
     fiberStyle: 'dashes',
@@ -107,7 +107,7 @@ export const PRESETS: Record<string, Partial<GhostFibersLook>> = {
     rotation: 8
   },
   silk: {
-    glowColor: '#34d399',
+    glowColor: '#349cd3',
     lineColor: '#ecfdf5',
     secondaryColor: '#0ea5e9',
     fiberStyle: 'lines',
@@ -141,7 +141,7 @@ export const LIGHT_SWAP: Record<string, Partial<GhostFibersLook>> = {
   minimal: { glowColor: '#3f3f46', lineColor: '#09090b', secondaryColor: '#a1a1aa' },
   prism: { glowColor: '#0977ae', lineColor: '#1b3a63', secondaryColor: '#0d9488' },
   ember: { glowColor: '#ea580c', lineColor: '#9a3412', secondaryColor: '#be123c' },
-  silk: { glowColor: '#059669', lineColor: '#065f46', secondaryColor: '#0284c7' },
+  silk: { glowColor: '#056496', lineColor: '#06405f', secondaryColor: '#0284c7' },
   bokeh: { glowColor: '#1f6fb8', lineColor: '#163d66', secondaryColor: '#0977ae' }
 };
 

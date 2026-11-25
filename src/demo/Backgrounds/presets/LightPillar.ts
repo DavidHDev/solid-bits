@@ -30,7 +30,7 @@ export const PRESETS: Record<string, LightPillarLook> = {
   ember: {
     ...LOOK,
     topColor: '#ff4d1a',
-    bottomColor: '#ffd166',
+    bottomColor: '#66caff',
     pillarRotation: 10,
     flow: 1.6,
     intensity: 1.1
@@ -46,8 +46,8 @@ export const PRESETS: Record<string, LightPillarLook> = {
   },
   twister: {
     ...LOOK,
-    topColor: '#10b981',
-    bottomColor: '#d9f99d',
+    topColor: '#107fb9',
+    bottomColor: '#9dd9f9',
     pillarHeight: 0.8,
     twist: 1.05,
     rotationSpeed: 0.55,

@@ -59,7 +59,7 @@ export const PRESETS: Record<string, Partial<HoloMosaicLook>> = {
   prism: { ...COLOR },
   gold: {
     ...COLOR,
-    metalColor: '#f0c674',
+    metalColor: '#74c5f0',
     spectrum: 'warm',
     tileSize: 1.25,
     roundness: 0.22,

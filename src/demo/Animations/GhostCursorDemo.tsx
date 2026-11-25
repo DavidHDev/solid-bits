@@ -31,9 +31,9 @@ const DEFAULT_PROPS = {
 const LIGHT_SWAP: Record<string, string> = {
   '#6ec9f7': '#0977ae',
   '#5aa9ff': '#1f5fbf',
-  '#ff8a3d': '#ea580c',
+  '#3dbcff': '#0c9dea',
   '#e4e4e7': '#52525b',
-  '#6ee7b7': '#059669'
+  '#6ebde7': '#056496'
 };
 
 const DARK_SWAP: Record<string, string> = Object.fromEntries(

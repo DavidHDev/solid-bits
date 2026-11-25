@@ -112,7 +112,7 @@ const BALL_PRESETS: Record<Preset, PresetValues> = {
     dustSpeed: 1
   },
   aurora: {
-    color: '#5CFFC8',
+    color: '#5CC7FF',
     strands: 5,
     crackle: 0.6,
     flares: 0.5,

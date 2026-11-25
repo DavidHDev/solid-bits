@@ -41,7 +41,7 @@ const propData: PropRow[] = [
   {
     name: 'rayColor1',
     type: 'string',
-    default: "'#FFC46B'",
+    default: "'#6BCCFF'",
     description: 'Color of the first layer of rays, on the upper side of the fan.'
   },
   {

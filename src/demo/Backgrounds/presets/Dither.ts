@@ -4,7 +4,7 @@ export const PALETTES: Record<string, string[]> = {
   none: [],
   gameboy: ['#0f380f', '#306230', '#8bac0f', '#9bbc0f'],
   amber: ['#0b0603', '#5c2e05', '#d97706', '#ffd08a'],
-  sepia: ['#1a120b', '#5a4632', '#a8916f', '#efe3c8'],
+  sepia: ['#1a120b', '#324c5a', '#a8916f', '#efe3c8'],
   ice: ['#06121f', '#173d5c', '#5f9ec7', '#e4f3ff'],
   blueprint: ['#0d2a57', '#24508f', '#8fb5ea', '#e8f1ff']
 };

@@ -57,7 +57,7 @@ const PRESETS: Record<string, typeof LOOK> = {
   wake: {
     ...LOOK,
     palette: 'ramp',
-    rampBack: '#3ddc97',
+    rampBack: '#3da5dc',
     trail: 'scroll',
     echoes: 16,
     lag: 0.3,

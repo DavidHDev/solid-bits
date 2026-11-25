@@ -1,6 +1,6 @@
 export const LOOK = {
   rainbow: true,
-  colors: ['#4f8cff', '#2dd4bf', '#ffd166'],
+  colors: ['#4f8cff', '#2dd4bf', '#66caff'],
   colorSpeed: 1,
   intensity: 1,
   size: 1,
@@ -32,7 +32,7 @@ export const PRESETS: Record<string, Partial<SplashCursorLook>> = {
   },
   lava: {
     rainbow: false,
-    colors: ['#ff3d00', '#ff9100', '#ffd600'],
+    colors: ['#ff3d00', '#00a7ff', '#00a7ff'],
     swirl: 1,
     momentum: 0.6,
     trail: 1.6,
@@ -42,7 +42,7 @@ export const PRESETS: Record<string, Partial<SplashCursorLook>> = {
   },
   silk: {
     rainbow: false,
-    colors: ['#f87171', '#fbbf24', '#38bdf8'],
+    colors: ['#f87171', '#24b1fb', '#38bdf8'],
     swirl: 0.5,
     momentum: 2.5,
     trail: 2.5,

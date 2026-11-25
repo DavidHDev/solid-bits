@@ -83,7 +83,7 @@ export const PRESETS: Record<string, Partial<AcidSquaresLook>> = {
     rotation: 0
   },
   cushion: {
-    accentColor: '#ffb38a',
+    accentColor: '#8ad7ff',
     secondaryColor: '#6ec9f7',
     lighting: 'overhead',
     tileSize: 1.8,
@@ -97,7 +97,7 @@ export const PRESETS: Record<string, Partial<AcidSquaresLook>> = {
     waveScale: 1.6
   },
   ember: {
-    accentColor: '#ff7a1a',
+    accentColor: '#1ab0ff',
     secondaryColor: '#d61f45',
     waves: 1.25,
     waveScale: 0.8,
@@ -124,7 +124,7 @@ export const LIGHT_SWAP: Record<string, Partial<AcidSquaresLook>> = {
   acid: { accentColor: '#65a30d', secondaryColor: '#2a6fc9' },
   graphite: { accentColor: '#737373', secondaryColor: '#a3a3a3' },
   pixel: { accentColor: '#0891b2', secondaryColor: '#0977ae' },
-  cushion: { accentColor: '#f97316', secondaryColor: '#3d8bd4' },
+  cushion: { accentColor: '#16abf9', secondaryColor: '#3d8bd4' },
   ember: { accentColor: '#ea580c', secondaryColor: '#be123c' },
   glacier: { accentColor: '#0ea5e9', secondaryColor: '#0771a6' }
 };

@@ -12,7 +12,7 @@ import logo from './logo.svg';
 </div>
 
 <div style={{ width: '100%', height: '300px' }}>
-  <MetallicPaint text="Liquid" color="#f2c46b" edgeBend={0.9} />
+  <MetallicPaint text="Liquid" color="#6bc3f2" edgeBend={0.9} />
 </div>`,
   css
 });

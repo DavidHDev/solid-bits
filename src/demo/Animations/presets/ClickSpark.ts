@@ -24,7 +24,7 @@ export const PRESETS: Record<string, Partial<ClickSparkLook>> = {
   comet: { shape: 'streak', sparkCount: 12, sparkSize: 16, sparkRadius: 44, duration: 650, glow: 0.5 },
   confetti: {
     shape: 'dot',
-    sparkColor: ['#f43f5e', '#f59e0b', '#22c55e', '#3b82f6', '#14b8a6'],
+    sparkColor: ['#f43f5e', '#0ba4f5', '#22c55e', '#3b82f6', '#14b8a6'],
     sparkCount: 16,
     sparkWidth: 2.5,
     sparkRadius: 52,
@@ -34,7 +34,7 @@ export const PRESETS: Record<string, Partial<ClickSparkLook>> = {
   },
   sparkle: {
     shape: 'star',
-    sparkColor: ['#fde68a', '#fbbf24', '#ffffff'],
+    sparkColor: ['#8ad5fd', '#24b1fb', '#ffffff'],
     sparkCount: 6,
     sparkSize: 16,
     sparkRadius: 36,

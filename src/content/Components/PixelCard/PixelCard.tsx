@@ -88,8 +88,8 @@ const VARIANTS: Record<string, VariantConfig> = {
   yellow: {
     gap: 3,
     speed: 20,
-    colors: { dark: ['#fef08a', '#fde047', '#eab308'], light: ['#713f12', '#a16207', '#ca8a04'] },
-    glow: { dark: '#eab308', light: '#ca8a04' },
+    colors: { dark: ['#8ad6fe', '#47befd', '#089cea'], light: ['#125071', '#076ca1', '#0486ca'] },
+    glow: { dark: '#089cea', light: '#0486ca' },
     noFocus: false
   },
   pink: {

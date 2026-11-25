@@ -191,7 +191,7 @@ export default function ChromaGridDemo() {
       <TabsLayout>
         <PreviewTab>
           <div
-            class="demo-container px-3! py-6! md:px-6! md:py-8!"
+            class="px-3! md:px-6! py-6! md:py-8! demo-container"
             style={{ position: 'relative', height: 'auto', 'min-height': '500px', overflow: 'hidden' }}
           >
             <div style={{ width: '100%', 'max-width': '960px', margin: '0 auto' }}>

@@ -38,7 +38,7 @@ export const PRESETS: Record<string, Partial<GradientWavesLook>> = {
   },
   dune: {
     horizonColor: '#7c2d12',
-    waveColor: '#fb923c',
+    waveColor: '#3cb9fb',
     crestColor: '#fef3c7',
     speed: 0.2,
     amplitude: 3.2,
@@ -60,8 +60,8 @@ export const PRESETS: Record<string, Partial<GradientWavesLook>> = {
     lightAngle: 130
   },
   aurora: {
-    horizonColor: '#064e3b',
-    waveColor: '#34d399',
+    horizonColor: '#06354e',
+    waveColor: '#349cd3',
     crestColor: '#d1fae5',
     speed: 0.35,
     amplitude: 2.6,

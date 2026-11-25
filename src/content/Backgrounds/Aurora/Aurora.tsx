@@ -46,7 +46,7 @@ type Settings = {
 
 type Program = { program: WebGLProgram; uniforms: Record<string, WebGLUniformLocation | null> };
 
-const DEFAULT_STOPS = ['#0aa0ef', '#7cff67', '#0aa0ef'];
+const DEFAULT_STOPS = ['#0aa0ef', '#67cbff', '#0aa0ef'];
 const MAX_STOPS = 5;
 const MAX_LAYERS = 3;
 const INTRO_SECONDS = 2.4;
